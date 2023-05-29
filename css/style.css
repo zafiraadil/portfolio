@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Barlow:wght@400;500;600;700&family=Courier+Prime&family=Poppins:wght@400;700&family=Sora:wght@400;700&family=Source+Code+Pro:wght@300&display=swap');
+
+body{
+    font-family:"Bai Jamjuree", sans-serif;
+    line-height:1.7;
+}
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.border-hover{
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;
+}
+.border-hover:hover{
+    border-color: var(--bs-info);
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar{
+    transition: all 0.4s ease-out;
+}
+@media(min-width:992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.service-section p,.work p,.resume p,.skills p{
+    max-width:560px;
+}
+.divider{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.service .icon{
+    width:80px;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service .icon i{
+    font-size: 40px;
+
+}
